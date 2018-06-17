@@ -7,13 +7,13 @@ body {
 .jumbotron {
   background-image: url(/img/jumbotron.jpg);
   background-size: cover;
-  color: #74ffe3;
+  color: #a9ffee;
   font-family: "Acme", sans-serif;
 }
 .navbar-brand {
   font-weight: bold;
   font-family: "Lobster", cursive;
-  font-size: 20px;
+  font-size: 1.8em;
 }
 .navbar-inverse {
   background-color: #39ada0;
@@ -24,11 +24,25 @@ a {
   color: white !important;
 }
 .navbar {
+    padding-top: 5px;
   border-radius: 5px;
 }
-/* .carousel {
-    width: 800px;
+.carousel {
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
-} */
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #39ADA0;
+}
+.active {
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.col-centered{
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+
+}
