@@ -44,5 +44,12 @@ a {
   float: none;
   margin-right: auto;
   margin-left: auto;
-
+}
+.form-container {
+    border: 0px solid #fff; 
+    padding: 50px 60px;
+    margin-top: 15vh;
+    -webkit-box-shadow: 3px 5px 35px 10px rgba(0,0,0,0.54);
+-moz-box-shadow: 3px 5px 35px 10px rgba(0,0,0,0.54);
+box-shadow: 3px 5px 35px 10px rgba(0,0,0,0.54);
 }
