@@ -24,32 +24,39 @@ a {
   color: white !important;
 }
 .navbar {
-    padding-top: 5px;
+  padding-top: 5px;
   border-radius: 5px;
 }
 .carousel {
-    margin: 0 auto;
-    border-radius: 10px;
-    overflow: hidden;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-    background-color: #39ADA0;
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #39ada0;
 }
 .active {
-    font-size: 1.25em;
-    font-weight: 700;
-    margin-top: 5px;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 5px;
 }
-.col-centered{
+.col-centered {
   float: none;
   margin-right: auto;
   margin-left: auto;
 }
 .form-container {
-    border: 0px solid #fff; 
-    padding: 50px 60px;
-    margin-top: 15vh;
-    -webkit-box-shadow: 3px 5px 35px 10px rgba(0,0,0,0.54);
--moz-box-shadow: 3px 5px 35px 10px rgba(0,0,0,0.54);
-box-shadow: 3px 5px 35px 10px rgba(0,0,0,0.54);
+  border: 0px solid #fff;
+  padding: 50px 60px;
+  margin-top: 15vh;
+  -webkit-box-shadow: 3px 5px 35px 10px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 3px 5px 35px 10px rgba(0, 0, 0, 0.54);
+  box-shadow: 3px 5px 35px 10px rgba(0, 0, 0, 0.54);
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+
 }
