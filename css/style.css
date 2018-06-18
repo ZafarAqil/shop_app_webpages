@@ -46,8 +46,6 @@ a {
 }
 .col-centered {
   float: none;
-  /* margin-right: auto;
-  margin-left: auto; */
   margin: 0 auto;
 }
 .form-container {
@@ -88,3 +86,4 @@ a {
     display: inline-block;
     text-decoration: none;
     color: inherit; }
+
