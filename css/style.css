@@ -1,6 +1,6 @@
 body {
   padding-top: 70px;
-  background: linear-gradient(to top left, #2a3757 50%, #39ada0 80%) no-repeat
+  background: linear-gradient(to top left, #2a3757 40%, #39ada0 90%) no-repeat
     center fixed;
   color: white;
 }
@@ -86,4 +86,3 @@ a {
     display: inline-block;
     text-decoration: none;
     color: inherit; }
-
